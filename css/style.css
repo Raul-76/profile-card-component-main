@@ -15,3 +15,14 @@
     margin: 0;
     font-family: 'Kumbh Sans', sans-serif;
 }
+
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("/images/bg-pattern-top.svg"), url(/images/bg-pattern-bottom.svg);
+    background-position: 220% 180%, -120% -65%;
+    background-repeat: no-repeat;
+    background-color: var(--dark-cyan);
+}
